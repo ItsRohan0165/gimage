@@ -22,15 +22,6 @@ async def on_ready():
     print(bot.user.id)
     print('------')
    
-
-@bot.command()
-async def define(*text: str):
-    finaltext = 'define '
-    for word in text:
-        finaltext = finaltext + word  + " "
-    
-    api_key = os.getenv("API")
-    cse_id = os.getenv("CSE")
    
 @bot.command()
 async def gg(ctx, *text : str):
