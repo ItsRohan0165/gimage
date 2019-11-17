@@ -1,1 +1,1 @@
-worker : python gimage.py
+worker : python llb.py
